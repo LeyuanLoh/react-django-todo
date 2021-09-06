@@ -5,18 +5,17 @@ Pre-req
 - Python 3.xx.
 - pipenv (Great tool to create virtual environment. To install just do "pip install pipenv".)
 
-1. Cd into backend folder and start virtual environment.
-Do "pipenv shell".
-
-2. Install django.
-Do "pipenv install django".
-
-3. Install restframework and cors headers.
-Do "pipenv install djangorestframework django-cors-headers".
+1. Cd into backend folder, install dependencies, and run virtual environment.
+do "pipenv install" - This will install all needed dependencies such as restframework and cors-headers.
+do "pipenv shell"
 
 4. Run backend server.
-Do "python manage.py runserver". Please note that django is full backend here. 
+Do "python manage.py runserver". Please note that django is full backend here. Apart from that, the backend implements restframework which provides UI for the apis. To access the api, please go to http://localhost:8000/api/tasks/.
 
+5. Run frontend server.
+I believe you can just do npm start. The website should automatically opens. If not, please visit http://localhost:3000/. Also, please make sure the backend server is running. 
+
+Have fun hacking :P
 
 Things I am planning to implement:
 - Multipage application
