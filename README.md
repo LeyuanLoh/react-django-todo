@@ -4,6 +4,7 @@ His code for this project also can be found at https://github.com/BekBrace/djang
 Pre-req 
 - Python 3.xx.
 - pipenv (Great tool to create virtual environment. To install just do "pip install pipenv".)
+- node.js (https://nodejs.org/en/)
 
 1. Cd into backend folder, install dependencies, and run virtual environment.
 do "pipenv install" - This will install all needed dependencies such as restframework and cors-headers.
